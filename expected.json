@@ -1,0 +1,29 @@
+{
+  "schedule": [
+    {
+      "task": "ingest",
+      "worker": "analyst",
+      "start": 0,
+      "end": 3
+    },
+    {
+      "task": "inspect",
+      "worker": "analyst",
+      "start": 3,
+      "end": 7
+    },
+    {
+      "task": "assemble",
+      "worker": "builder",
+      "start": 3,
+      "end": 8
+    },
+    {
+      "task": "report",
+      "worker": "analyst",
+      "start": 8,
+      "end": 10
+    }
+  ],
+  "makespan": 10
+}

@@ -1,0 +1,58 @@
+{
+  "workers": [
+    {
+      "id": "analyst",
+      "skills": [
+        "parse",
+        "review"
+      ]
+    },
+    {
+      "id": "builder",
+      "skills": [
+        "parse",
+        "build"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ingest",
+      "duration": 3,
+      "requires": [
+        "parse"
+      ]
+    },
+    {
+      "id": "inspect",
+      "duration": 4,
+      "requires": [
+        "review"
+      ],
+      "depends": [
+        "ingest"
+      ]
+    },
+    {
+      "id": "assemble",
+      "duration": 5,
+      "requires": [
+        "build"
+      ],
+      "depends": [
+        "ingest"
+      ]
+    },
+    {
+      "id": "report",
+      "duration": 2,
+      "requires": [
+        "review"
+      ],
+      "depends": [
+        "inspect",
+        "assemble"
+      ]
+    }
+  ]
+}
