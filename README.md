@@ -1,5 +1,13 @@
 # NeuroGrid
 
+<!-- portfolio-website:start -->
+## Website
+
+[Open NEUROGRID website](https://royalpuskar.github.io/NEUROGRID/)
+
+GitHub Pages deployment was confirmed during portfolio setup.
+<!-- portfolio-website:end -->
+
 **Coordination simulation · NEUROGRID · working research prototype**
 
 Simulate capability-aware scheduling of dependent agent tasks.
@@ -73,3 +81,10 @@ Scenario data stays in browser memory. The app makes no analysis network request
 ## Contributing and license
 
 See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [LICENSE](LICENSE). Changes should include a concrete failing case and an explanation of assumptions. No benchmark, adoption or certification claims are made without supporting evidence.
+
+
+<!-- portfolio-rights:start -->
+## Copyright
+
+© 2026 Puskar (Royalpuskar). All rights reserved except the permissions expressly granted by this repository’s MIT License. Third-party rights and notices remain with their owners.
+<!-- portfolio-rights:end -->
